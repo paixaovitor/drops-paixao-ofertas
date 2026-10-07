@@ -1,0 +1,18 @@
+:root{--roxo:#4B1DB7;--laranja:#FF8A00;--grafite:#1E1B2E;--bg:#f6f4fb;--txt:#1E1B2E;--sub:#5d5873;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#141220;--txt:#f1eefa;--sub:#b9b3cc;--card:#1E1B2E}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:inherit}header{background:var(--grafite);color:#fff;padding:14px 16px}header .w{display:flex;gap:12px;align-items:center;justify-content:space-between}
+.w{max-width:1040px;margin:0 auto}.logo{font-weight:800;font-size:20px;text-decoration:none}.logo span{color:var(--laranja)}
+.tg{background:var(--laranja);color:#1E1B2E;padding:8px 14px;border-radius:999px;font-weight:700;text-decoration:none;white-space:nowrap}
+main{padding:16px}h1{font-size:26px;line-height:1.2;margin:8px 0 4px}h2{font-size:20px;margin:28px 0 10px}.sub{color:var(--sub)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.card{background:var(--card);border-radius:16px;overflow:hidden;text-decoration:none;display:flex;flex-direction:column;box-shadow:0 1px 3px #0002}
+.card img{width:100%;aspect-ratio:1;object-fit:cover;background:#fff}.card .i{padding:10px 12px}.card b{display:block;font-size:15px}
+.preco{color:var(--roxo);font-weight:800;font-size:20px}@media (prefers-color-scheme:dark){.preco{color:var(--laranja)}}
+.old{color:var(--sub);font-size:13px}.pub{font-size:12px;color:var(--sub)}.chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.chips a{background:var(--card);padding:6px 12px;border-radius:999px;text-decoration:none;font-size:14px}
+.det{display:grid;grid-template-columns:1fr;gap:18px;background:var(--card);border-radius:18px;padding:16px}
+@media(min-width:760px){.det{grid-template-columns:1fr 1fr}}.det img{width:100%;border-radius:12px;background:#fff}
+.btn{display:block;text-align:center;background:var(--roxo);color:#fff;padding:14px;border-radius:12px;font-weight:800;text-decoration:none;margin:12px 0}
+.btn.t{background:var(--laranja);color:#1E1B2E}.aviso{background:#ff8a0022;border-left:4px solid var(--laranja);padding:10px 12px;border-radius:8px}
+footer{padding:24px 16px;color:var(--sub);font-size:13px}
